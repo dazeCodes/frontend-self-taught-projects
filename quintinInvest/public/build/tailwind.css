@@ -629,11 +629,11 @@ video {
 }
 
 .p-side:hover {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   --text-opacity: 1;
   color: #000;
   color: rgba(0, 0, 0, var(--text-opacity));
-  font-weight: 700;
+  font-weight: 500;
   cursor: pointer;
 }
 
@@ -649,6 +649,18 @@ video {
   --text-opacity: 1;
   color: #000;
   color: rgba(0, 0, 0, var(--text-opacity));
+}
+
+.p-side-red:hover {
+  --text-opacity: 1;
+  color: #e53e3e;
+  color: rgba(229, 62, 62, var(--text-opacity));
+}
+
+@media (min-width: 768px) {
+  .p-side {
+    letter-spacing: -0.05em;
+  }
 }
 
 .space-y-0 > :not(template) ~ :not(template) {
