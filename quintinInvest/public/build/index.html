@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="tailwind.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <style>
+    /* * {
+      border: 1px solid red;
+    } */
+  </style>
+  <body>
+    <header
+      class="sidebar w-full h-20 px-12 bg-white flex items-center justify-between shadow-lg"
+    >
+      <h2 class="text-purple-700 text-3xl font-bold">Jerry Dash</h2>
+      <div class="flex items-center" id="right-header">
+        <img class="h-10 w-10" src="/images/avatar 2 1.png" alt="logo" />
+        <p class="text-xl ml-4">Brandon Ricky</p>
+      </div>
+    </header>
+    <section class="flex">
+      <aside
+        class="w-2/12 md:w-3/12 bg-white h-screen p-10 z-auto shadow-lg font-medium text-lg"
+      >
+        <div class="text-gray-900 tracking-wider flex items-center mb-6">
+          <img src="/images/dashboard.svg" alt="" />
+          <p class="ml-2">Dashboard</p>
+        </div>
+        <div class="text-gray-900 tracking-wider flex items-center mb-6">
+          <img src="/images/bank.svg" alt="" />
+          <p class="ml-2">Make Deposit for Plan</p>
+        </div>
+        <div class="text-gray-900 tracking-wider flex items-center mb-6">
+          <img src="/images/graph.svg" alt="" />
+          <p class="ml-2">Deposit History</p>
+        </div>
+        <div class="text-gray-900 tracking-wider flex items-center mb-6">
+          <img src="/images/graphmoney.svg" alt="" />
+          <p class="ml-2">Earnings History</p>
+        </div>
+        <div class="text-gray-900 tracking-wider flex items-center mb-6">
+          <img src="/images/briefcase.svg" alt="" />
+          <p class="ml-2">Request Withdraw</p>
+        </div>
+        <div class="text-gray-900 tracking-wider flex items-center mb-6">
+          <img src="/images/graphmoney.svg" alt="" />
+          <p class="ml-2">Your Referrals</p>
+        </div>
+        <div class="text-gray-900 tracking-wider flex items-center mb-6">
+          <img src="/images/dashboard.svg" alt="" />
+          <p class="ml-2">Edit Account</p>
+        </div>
+        <div class="text-red-700 tracking-wider flex items-center mb-6">
+          <img src="/images/logout.svg" alt="" />
+          <p class="ml-2">Logout</p>
+        </div>
+      </aside>
+      <main class="bg-gray-200 w-full">
+        <section class="w-full h-20 flex items-center justify-around">
+          <div
+            class="bg-purple-700 uppercase rounded-md px-6 py-2 text-center text-gray-200"
+          >
+            Copy Referral Link
+          </div>
+          <div
+            class="bg-gray-900 rounded-md px-6 py-2 text-center text-gray-200"
+          >
+            HTTPS://WORLDBTC.PRO//?REF=BRANDON
+          </div>
+          <div
+            class="bg-purple-700 uppercase rounded-md px-6 py-2 text-center text-gray-200"
+          >
+            Show Referrals
+          </div>
+        </section>
+        <div class="flex justify-between">
+          <div class="p-4 w-3/12 h-56 bg-white shadow-md rounded-sm m-4">
+            <p class="uppercase font-semibold">Account Balance</p>
+            <p class="text-3xl text-red-800 font-semibold mt-2 -mb-6">$0.00</p>
+            <img src="/images/SvgjsG1003.svg" alt="" />
+          </div>
+          <div class="p-4 w-3/12 h-56 bg-white shadow-md rounded-sm m-4">
+            <p class="uppercase font-semibold">Active Deposit</p>
+            <p class="text-3xl text-red-800 font-semibold mt-2 -mb-6">$0.00</p>
+            <img src="/images/SvgjsG1003.svg" alt="" />
+          </div>
+          <div class="p-4 w-3/12 h-56 bg-white shadow-md rounded-sm m-4">
+            <p class="uppercase font-semibold">Pending Withdrawal</p>
+            <p class="text-3xl text-red-800 font-semibold mt-2 mb-2">$0.00</p>
+            <img src="/images/SvgjsG1004.svg" alt="" />
+          </div>
+          <div class="p-4 w-3/12 h-56 bg-white shadow-md rounded-sm m-4">
+            <p class="uppercase font-semibold">Withdrew Total</p>
+            <p class="text-3xl text-red-800 font-semibold mt-2 -mb-6">$0.00</p>
+            <img src="/images/SvgjsG1003.svg" alt="" />
+          </div>
+        </div>
+
+        <!-- second line of clickables -->
+        <div class="flex">
+          <div class="left-fat w-3/5">
+            <div class="flex justify-between">
+              <div class="p-4 w-3/6 h-56 bg-white shadow-md rounded-sm m-6">
+                <p class="uppercase font-semibold">Total Deposit</p>
+                <p class="text-3xl text-red-800 font-semibold mt-2 -mb-6">
+                  $0.00
+                </p>
+              </div>
+              <div class="p-4 w-3/6 h-56 bg-white shadow-md rounded-sm m-6">
+                <p class="uppercase font-semibold">Total Earned</p>
+                <p class="text-3xl text-red-800 font-semibold mt-2 -mb-6">
+                  $0.00
+                </p>
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div
+                class="p-4 w-3/6 h-56 bg-white shadow-md rounded-sm m-6 mt-1"
+              >
+                <p class="uppercase font-semibold">Last Deposit</p>
+                <p class="text-3xl text-red-800 font-semibold mt-2 -mb-6">
+                  $0.00
+                </p>
+              </div>
+              <div
+                class="p-4 w-3/6 h-56 bg-white shadow-md rounded-sm m-6 mt-1"
+              >
+                <p class="uppercase font-semibold">Last Withdrawal</p>
+                <p class="text-3xl text-red-800 font-semibold mt-2 -mb-6">
+                  $0.00
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- closing left fat -->
+          <div class="w-5/12">
+            <div class="p-4 h-64 pb-64 bg-white shadow-md rounded-sm mt-6 mr-6">
+              <!-- <img src="/images/SvgjsG1003.svg" alt="" /> -->
+              <p class="uppercase font-semibold">Invest & Earn</p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+    <h1 class=""></h1>
+  </body>
+</html>

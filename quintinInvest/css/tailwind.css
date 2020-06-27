@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+
+.p-side {
+  @apply text-gray-900 tracking-wider ml-4 mt-8;
+}
+.p-side:hover {
+  @apply text-xl text-black font-bold cursor-pointer;
+}
+.p-side:focus {
+  @apply text-xl text-black;
+}
+.p-side:active {
+  @apply text-xl text-black;
+}
+@tailwind utilities;
