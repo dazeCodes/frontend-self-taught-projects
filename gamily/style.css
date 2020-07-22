@@ -133,3 +133,9 @@ header section {
     text-align: left;
   }
 }
+@media screen and (min-width: 900px) {
+  .nav,
+  header section {
+    padding: 0 150px;
+  }
+}
