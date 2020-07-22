@@ -138,4 +138,7 @@ header section {
   header section {
     padding: 0 230px;
   }
+  header section {
+    margin-top: 1%;
+  }
 }
