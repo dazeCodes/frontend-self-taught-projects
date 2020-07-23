@@ -24,3 +24,10 @@ gsap.from(".get-started", {
   ease: "bounce.in",
   stagger: 2,
 });
+gsap.from(".pad", {
+  duration: 2,
+  y: "-100vh",
+  opacity: 0,
+  delay: 1,
+  ease: "rough.in",
+});
